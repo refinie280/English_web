@@ -59,7 +59,7 @@
     list-style: none;
     border: 1px solid white;
     border-radius: 20px;
-    background-color: lightgrey;
+    background-color: #B8E7E1;
 }
 .content .post1 li {
     text-align: center;
@@ -76,7 +76,7 @@
     list-style: none;
     border: 1px solid white;
     border-radius: 20px;
-    background-color: #FBE2FA;
+    background-color: #B8E7E1;
 }
 .content .post2 li {
     text-align: center;
