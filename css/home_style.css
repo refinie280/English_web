@@ -190,7 +190,7 @@
     font-style: italic;
     padding-left: 15px;
     padding-right: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     height: 160px;
 }
 #posts img {
@@ -209,7 +209,7 @@
     color: black;
     font-weight: bold;
 }
-#s .posts button:hover {
+#posts .posts button:hover {
     background-color: lightblue;
 }
 /*#contact_us h1 {*/
@@ -263,4 +263,6 @@
     border-radius: 10px;
     background-color: black;
     color: white;
+
 }
+
