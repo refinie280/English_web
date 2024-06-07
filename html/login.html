@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Register - Đăng ký tài khoản</title>
-    <link rel="stylesheet" href="../css/register.css">
-    <script src="../javascript/register.js"></script>
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../javascript/login.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<!--HEADER-->
 <div class="header">
     <ul id="header">
         <li><img id="logo" src="../image/VALLEY.png"></li>
@@ -21,27 +20,23 @@
         <li><button id="register"><a href="register.html"><span>Register</span></a></button></li>
     </ul>
 </div>
-<!--REGISTER - FORM-->
-<div class="register-form">
-    <h1 class="register-form__heading"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Register your account</h1>
-    <div class="register-form__form">
-        <div class="register-form__group">
-            <input type="text" class="register-form__input" id="name" placeholder="*Your name" required><br>
-            <input type="email" class="register-form__input" id="email" placeholder="*Your Email" required><br>
-            <input type="date" class="register-form__input" id="date_of_birth" required><br>
-            <input type="password" class="register-form__input" id="password" placeholder="*Your Password" required><br>
-            <input type="password" class="register-form__input" id="password_confirmation" placeholder="*Confirm your password" required><br>
+
+<!--LOGIN - FORM-->
+<div class="login-form">
+    <h1 class="login-form__heading"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Login your account</h1>
+    <div class="login-form__form">
+        <div class="login-form__group">
+            <input type="email" class="login-form__input" id="email" placeholder="*Your Email" required><br>
+            <input type="password" class="login-form__input" id="password" placeholder="*Your Password" required><br>
         </div>
-        <div class="register-form_aside">
-            <p class="register-form__policy-text">By click "Register" you will agree with our
-                <a href="" class="register-form__policy-link">Terms</a> &
-                <a href="" class="register-form__policy-link">Privacy Policy</a>
-            </p>
+        <div class="login-form__option">
+            <a href="" class="option" id="forgotPass">Forgot Password?</a>
+            <a href="register.html" class="option" id="newAccount">Register New Account</a>
         </div>
-        <div class="register-form__control">
-            <button class ="btn" onclick="register()">REGISTER</button>
+        <div class="login-form__control">
+            <button class ="btn" onclick="login()">LOGIN</button>
         </div>
-        <div class="register-form__social">
+        <div class="login-form__social">
             <i class="fa fa-facebook-square" aria-hidden="true" id="fb">Connect via Facebook</i>
             <span>or</span>
             <i class="fa fa-google-plus-square" aria-hidden="true" id="gg">Connect via Google</i>
@@ -80,6 +75,5 @@
         <p><a id="mail" href="mailto:englishwithrefinie@gmail.com">Email: englishwithrefinie@gmail.com</a></p>
     </div>
 </div>
-
 </body>
 </html>
